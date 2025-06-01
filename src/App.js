@@ -1,15 +1,18 @@
-import React from "react";
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Header from "./components/Header";
+import HomePage from "./pages/HomePage";
+import CountryDetail from "./components/CountryDetail";
 import "./scss/app.scss";
-import CountryCards from "./pages/CountryCards";
-import Header from "./pages/Header";
 
 function App() {
   return (
-    <>
+    <BrowserRouter>
       <Header />
-      <CountryCards />
-    </>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/country/:code" element={<CountryDetail />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
