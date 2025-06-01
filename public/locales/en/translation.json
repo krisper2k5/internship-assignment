@@ -1,0 +1,13 @@
+{
+  "searchPlaceholder": "Search for a country...",
+  "backButton": "Back",
+  "population": "Population",
+  "region": "Region",
+  "capital": "Capital",
+  "subregion": "Subregion",
+  "languages": "Languages",
+  "borderCountries": "Border Countries",
+  "errorLoadingCountries": "Error loading countries",
+  "errorLoadingCountry": "Error loading country data",
+  "countryNotFound": "Country not found"
+}

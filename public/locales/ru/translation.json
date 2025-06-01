@@ -1,0 +1,13 @@
+{
+  "searchPlaceholder": "Поиск страны...",
+  "backButton": "Назад",
+  "population": "Население",
+  "region": "Регион",
+  "capital": "Столица",
+  "subregion": "Субрегион",
+  "languages": "Языки",
+  "borderCountries": "Граничит с",
+  "errorLoadingCountries": "Ошибка загрузки стран",
+  "errorLoadingCountry": "Ошибка загрузки данных о стране",
+  "countryNotFound": "Страна не найдена"
+}
